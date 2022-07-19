@@ -1,11 +1,13 @@
-object keychart {
-   keychart() {
+class keychart {
+   constructor() {
       this.keycombos = {}
    }
 
    add(keycombo, octave, note) {
       if (this.keycombos[keycombo] == undefined) {
          this.keycombos[keycombo] = [octave, note]
+      } else {
+         throw {"exception": "Duplicate Key in Keychart", "conflict":this.keycombos[keycombo]}
       }
    }
 
