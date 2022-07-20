@@ -34,7 +34,7 @@ const k = {
 let boehm = new keychart()
 
 // [-] Magnani
-// [ ] Klosé
+// [-] Klosé
 
 // Chalumeau
 
@@ -56,6 +56,7 @@ boehm.add(k.th | k.l_1 | k.l_2 | k.l_3 | k.r_1, 3, 'a#')
 
 boehm.add(k.th | k.l_1 | k.l_2 | k.l_3 | k.r_2, 3, 'b')
 boehm.add(k.th | k.l_1 | k.l_2 | k.l_3 | k.r_1 | k.r_B, 3, 'b')
+boehm.add(k.th | k.l_1 | k.l_2 | k.l_3 | k.r_3, 3, 'b') // Klosé
 
 boehm.add(k.th | k.l_1 | k.l_2 | k.l_3, 4, 'c')
 
@@ -65,8 +66,8 @@ boehm.add(k.th | k.l_1 | k.l_2, 4, 'c')
 
 boehm.add(k.th | k.l_1 | k.l_2 | k.r_t4, 4, 'd#')
 boehm.add(k.th | k.l_1 | k.l_2 | k.l_Ds, 4, 'd#')
-boehm.add(k.th | k.l_1 | k.l_2 | k.r_1, 4, 'd#')
-boehm.add(k.th | k.l_1 | k.l_2 | k.r_2, 4, 'd#')
+boehm.add(k.th | k.l_1 | k.r_1, 4, 'd#')
+boehm.add(k.th | k.l_1 | k.r_2, 4, 'd#')
 
 boehm.add(k.th | k.l_1, 4, 'e')
 
@@ -84,9 +85,11 @@ boehm.add(k.l_Gs | k.th, 4, 'g')
 
 boehm.add(k.l_Gs, 4, 'g#')
 boehm.add(k.l_Gs | k.th | k.r_t3, 4, 'g#')
+boehm.add(k.l_Rs | k.l_3, 4, 'g#') // Klosé
 
 boehm.add(k.l_A, 4, 'a')
 boehm.add(k.l_3| k.r_t2, 4, 'a')
+boehm.add(k.l_A | k.l_3, 4, 'a') // Klosé
 
 boehm.add(k.l_A | k.rg, 4, 'a#')
 boehm.add(k.l_A | k.l_3 | k.r_t2, 4, 'a#')
