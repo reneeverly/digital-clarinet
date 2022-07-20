@@ -26,6 +26,9 @@ const k = {
    r_B      : s(18), //   Bn>
    r_3      : s(19), //    (3)
    r_Gs     : s(20)  //       <Gs>
+                     //     {Fs}
+                     //     {E}
+                     //       {F}
 }
 
 let boehm = new keychart()
@@ -33,48 +36,47 @@ let boehm = new keychart()
 // [-] Magnani
 // [ ] Klosé
 
-// e3
-// e3
-// e3
+// Chalumeau
 
-// f3
-// f3
+boehm.add(k.th | k.l_1 | k.l_2 | k.l_3 | k.l_E | k.r_1 | k.r_2 | k.r_3 | k.l_F, 3, 'e')
+boehm.add(k.th | k.l_1 | k.l_2 | k.l_3 | k.l_E | k.r_1 | k.r_2 | k.r_3, 3, 'e')
 
-// f#3
-// f#3
-// f#3
+boehm.add(k.th | k.l_1 | k.l_2 | k.l_3 | k.l_F | k.r_1 | k.r_2 | k.r_3, 3, 'f')
 
-// g3
+boehm.add(k.th | k.l_1 | k.l_2 | k.l_3 | k.l_Fs | k.r_1 | k.r_2 | k.r_3, 3, 'f#')
+boehm.add(k.th | k.l_1 | k.l_2 | k.l_3 | k.l_Fs | k.r_1 | k.r_2 | k.r_3 | k.l_F, 3, 'f#')
 
-// g#3
+boehm.add(k.th | k.l_1 | k.l_2 | k.l_3 | k.r_1 | k.r_2 | k.r_3, 3, 'g')
 
-// a3
+boehm.add(k.th | k.l_1 | k.l_2 | k.l_3 | k.r_1 | k.r_2 | k.r_3 | k.r_Gs, 3, 'g')
 
-// a#3
+boehm.add(k.th | k.l_1 | k.l_2 | k.l_3 | k.r_1 | k.r_2, 3, 'a')
 
-// b3
-// b3
+boehm.add(k.th | k.l_1 | k.l_2 | k.l_3 | k.r_1, 3, 'a#')
 
-// c4
+boehm.add(k.th | k.l_1 | k.l_2 | k.l_3 | k.r_2, 3, 'b')
+boehm.add(k.th | k.l_1 | k.l_2 | k.l_3 | k.r_1 | k.r_B, 3, 'b')
 
-// c#4
+boehm.add(k.th | k.l_1 | k.l_2 | k.l_3, 4, 'c')
 
-// d4
+boehm.add(k.th | k.l_1 | k.l_2 | k.l_3 | k.l_Cs, 4, 'c#')
 
-// d#4
-// d#4
-// d#4
-// d#4
+boehm.add(k.th | k.l_1 | k.l_2, 4, 'c')
 
-// e4
+boehm.add(k.th | k.l_1 | k.l_2 | k.r_t4, 4, 'd#')
+boehm.add(k.th | k.l_1 | k.l_2 | k.l_Ds, 4, 'd#')
+boehm.add(k.th | k.l_1 | k.l_2 | k.r_1, 4, 'd#')
+boehm.add(k.th | k.l_1 | k.l_2 | k.r_2, 4, 'd#')
 
-// f4
-// f4
-// f4
-// f4
+boehm.add(k.th | k.l_1, 4, 'e')
 
-// f#4
-// f#4
+boehm.add(k.th, 4, 'f')
+boehm.add(k.th | k.l_Ds, 4, 'f')
+boehm.add(k.th | k.r_t4, 4, 'f')
+boehm.add(k.th | k.l_1 | k.l_2 | k.l_Ds | k.r_t3, 4, 'f')
+
+boehm.add(k.l_1, 4, 'f#')
+boehm.add(k.th | k.r_t3, 4, 'f#')
 
 boehm.add(0, 4, 'g')
 boehm.add(k.l_3, 4, 'g')
@@ -86,8 +88,10 @@ boehm.add(k.l_Gs | k.th | k.r_t3, 4, 'g#')
 boehm.add(k.l_A, 4, 'a')
 boehm.add(k.l_3| k.r_t2, 4, 'a')
 
-// a#4
-// a#4
+boehm.add(k.l_A | k.rg, 4, 'a#')
+boehm.add(k.l_A | k.l_3 | k.r_t2, 4, 'a#')
+
+// Clarion
 
 // b4
 // b4
@@ -135,6 +139,8 @@ boehm.add(k.l_3| k.r_t2, 4, 'a')
 // c6
 // c6
 // c6
+
+// Altissimo
 
 // c#6
 // c#6
