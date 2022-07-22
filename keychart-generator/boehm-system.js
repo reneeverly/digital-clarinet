@@ -96,52 +96,49 @@ boehm.add(k.l_A | k.l_3 | k.r_t2, 4, 'a#')
 
 // Clarion
 
-// b4
-// b4
-// b4
-// b4
-// b4
+boehm.add(k.rg | k.th | k.l_1 | k.l_2 | k.l_3 | k.l_E | k.r_1 | k.r_2 | k.r_3 | k.l_F, 4, 'b')
+boehm.add(k.rg | k.th | k.l_1 | k.l_2 | k.l_3 | k.l_E | k.r_1 | k.r_2 | k.r_3, 4, 'b')
+boehm.add(k.l_A | k.l_3 | k.r_t1, 4, 'b')
+boehm.add(k.rg | k.l_A | k.l_3 | k.r_t2, 4, 'b')
 
-// c5
-// c5
-// c5
+boehm.add(k.rg | k.th | k.l_1 | k.l_2 | k.l_3 | k.r_1 | k.r_2 | k.r_3 | k.l_F, 5, 'c')
+boehm.add(k.rg | k.l_A | k.l_3 | k.r_t1, 5, 'c')
 
-// c#5
-// c#5
-// c#5
+boehm.add(k.rg | k.th | k.l_1 | k.l_2 | k.l_3 | k.l_Fs | k.r_1 | k.r_2 | k.r_3, 5, 'c#')
+boehm.add(k.rg | k.th | k.l_1 | k.l_2 | k.l_3 | k.l_Fs | k.r_1 | k.r_2 | k.r_3 | k.l_F, 5, 'c#')
 
-// d5
+boehm.add(k.rg | k.th | k.l_1 | k.l_2 | k.l_3 | k.r_1 | k.r_2 | k.r_3, 5, 'd')
 
-// d#5
+boehm.add(k.rg | k.th | k.l_1 | k.l_2 | k.l_3 | k.r_1 | k.r_2 | k.r_3 | k.r_Gs, 5, 'd#')
 
-// e5
+boehm.add(k.rg | k.th | k.l_1 | k.l_2 | k.l_3 | k.r_1 | k.r_2, 5, 'e')
 
-// f5
+boehm.add(k.rg | k.th | k.l_1 | k.l_2 | k.l_3 | k.r_1, 5, 'f')
 
-// f#5
-// f#5
+boehm.add(k.rg | k.th | k.l_1 | k.l_2 | k.l_3 | k.r_1 | k.r_B, 5, 'f#')
+boehm.add(k.rg | k.th | k.l_1 | k.l_2 | k.l_3 | k.r_e, 5, 'f#')
 
-// g5
-// g5
+boehm.add(k.rg | k.th | k.l_1 | k.l_2 | k.l_3, 5, 'g')
+boehm.add(k.rg | k.th | k.l_1 | k.l_2 | k.l_3 | k.l_Cs | k.r_1, 5, 'g')
 
-// g#5
+boehm.add(k.rg | k.th | k.l_1 | k.l_2 | k.l_3 | k.l_Cs, 5, 'g#')
 
-// a5
-// a5
+boehm.add(k.rg | k.th | k.l_1 | k.l_2, 5, 'a')
+boehm.add(k.rg | k.th | k.l_1 | k.l_2 | k.l_3 | k.r_t4, 5, 'a')
 
-// a#5
-// a#5
-// a#5
-// a#5
-// a#5
+boehm.add(k.rg | k.th | k.l_1 | k.l_2 | k.l_Ds, 5, 'a#')
+boehm.add(k.rg | k.th | k.l_1 | k.l_2 | k.r_t4, 5, 'a#')
+boehm.add(k.rg | k.th | k.l_1 | k.r_1, 5, 'a#')
+boehm.add(k.rg | k.th | k.l_1 | k.l_2, 5, 'a#')
+boehm.add(k.rg | k.th | k.l_2 | k.l_3 | k.l_Cs, 5, 'a#')
 
-// b5
-// b5
+boehm.add(k.rg | k.th | k.l_1, 5, 'b')
+boehm.add(k.rg | k.th | k.l_2, 5, 'b')
 
-// c6
-// c6
-// c6
-// c6
+boehm.add(k.rg | k.th, 6, 'c')
+boehm.add(k.rg | k.th | k.l_Ds, 6, 'c')
+boehm.add(k.rg | k.th | k.l_t4, 6, 'c')
+boehm.add(k.rg | k.th | k.l_Ds | k.l_t3, 6, 'c')
 
 // Altissimo
 
